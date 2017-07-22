@@ -1,0 +1,935 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="">
+<!--<![endif]-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="ad.size" content="width=728,height=90">
+    <base href=".">
+    <title>728x90 Banner</title>
+    <script type="text/javascript">
+    var clickTagLink0 = "";
+    var clickTagLink1 = "";
+    var clickTagLink2 = "";
+    </script>
+    <style type="text/css">
+    a,
+    hr {
+        padding: 0;
+    }
+
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    html {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: 0 0;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        margin: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: 0 0;
+    }
+
+    #r43_bannerContainer,
+    .r43_clickTag,
+    .r43_frame {
+        height: 90px;
+        width: 728px;
+        overflow: hidden;
+    }
+
+    #r43_bannerContainer {
+        background-color: #FFFFFF;
+        position: relative;
+        display: none;
+    }
+
+    #r43_border {
+        border: 1px solid #000;
+        position: fixed;
+        width: 299px;
+        height: 249px;
+        z-index: 900;
+    }
+
+    .r43_frame {
+        top: 0;
+        position: absolute;
+        text-align: center;
+    }
+
+    #r43_replayButton {
+        width: 11px;
+        height: 11px;
+        text-indent: 1.0E+15px;
+        position: absolute;
+        left: 6px;
+        top: 6px;
+        z-index: 940;
+        fill: #fff;
+    }
+
+    #r43_replayButton:hover svg {
+        fill: #ED1B2E;
+    }
+
+    #r43_OTDALogo svg {
+        width: 100%;
+    }
+
+    .r43_clickTag {
+        width: 726px;
+        border: 1px solid black;
+        height: 88px;
+        cursor: pointer;
+        display: none;
+        z-index: 100;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: transparent url('spacer.gif') 0 0 repeat;
+    }
+
+    #r43_nav {
+        position: absolute;
+        top: 30px;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+    }
+
+    #r43_navButtons {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        top: 53px;
+        width: 132px;
+        left: 123px;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .r43_ctaContainer {
+        display: inline-block;
+        position: absolute;
+        top: -1px;
+    }
+
+    .r43_CTA {
+        text-align: center;
+        position: absolute;
+        width: 126px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        background-color: #9a1a31;
+        height: 23px;
+        margin: 0 3px;
+        top: 2px;
+        padding-top: 2px;
+    }
+
+    .r43_CTA svg {
+        width: 100%;
+    }
+
+    #r43_navDirections {
+        top: 58px;
+        position: absolute;
+        left: 106px;
+        width: 166px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #r43_navDirections a {
+        width: 10px;
+        position: absolute;
+        height: 0px;
+        top: -2px;
+        z-index: 110;
+    }
+
+    .prev {
+        border-top: 10px solid transparent;
+        border-right: 17px solid #58595b;
+        border-bottom: 10px solid transparent;
+        left: -10px;
+        cursor: pointer;
+    }
+
+    .next {
+        right: -10px;
+        border-top: 10px solid transparent;
+        border-left: 17px solid #58595b;
+        border-bottom: 10px solid transparent;
+        cursor: pointer;
+    }
+
+    #r43_overlay svg {
+        height: 100%;
+    }
+
+    #r43_overlay {
+        height: 92px;
+        width: 860px;
+        position: absolute;
+        top: -1px;
+        left: -1px;
+    }
+
+    #r43_textConatiner img {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #r43_carFrame img {
+        position: absolute;
+    }
+
+    #r43_carFrame1,
+    #r43_carFrame2,
+    #r43_carFrame3,
+    #r43_carFrame4 {
+        left: -25px;
+    }
+
+    #r43_textConatiner #r43_textFrame1 {
+        opacity: 1;
+    }
+
+    #r43_tire1,
+    #r43_tire3,
+    #r43_tire5,
+    #r43_tire7 {
+        position: absolute;
+        top: 54px;
+        left: 420px;
+        width: 27px;
+        -ms-transform: rotateY( 50deg) rotateX(0deg);
+        -webkit-transform: rotateY( 50deg) rotateX(0deg);
+        transform: rotateY( 50deg) rotateX(0deg);
+        display: inline-block;
+    }
+
+    #r43_tire2,
+    #r43_tire4,
+    #r43_tire6,
+    #r43_tire8 {
+        position: absolute;
+        top: 46px;
+        left: 501px;
+        width: 20px;
+        -ms-transform: rotateY( 61deg) rotateX(0deg);
+        -webkit-transform: rotateY( 61deg) rotateX(0deg);
+        transform: rotateY( 61deg) rotateX(0deg);
+        display: inline-block;
+    }
+
+    .flash {
+        width: 300px;
+        height: 90px;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="r43_bannerContainer">
+        <div id="r43_background" style="width: 728px;height: 90px;">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="728px" height="90px" viewBox="0 0 728 90" enable-background="new 0 0 728 90" xml:space="preserve">
+                <g>
+                <defs>
+                        <rect id="SVGID_1_" x="0.5" width="728" height="90" />
+                </defs>
+                    <clipPath id="SVGID_2_">
+                        <use xlink:href="#SVGID_1_" overflow="visible" />
+                    </clipPath>
+                    <radialGradient id="SVGID_3_" cx="0.5" cy="91.0039" r="0.9999" gradientTransform="matrix(356.0126 0 0 -356.0126 191.4141 32441.1055)" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#FFFFFF" />
+                        <stop offset="0.1799" stop-color="#FAFAFA" />
+                        <stop offset="0.3992" stop-color="#EBEBEC" />
+                        <stop offset="0.6389" stop-color="#D2D3D4" />
+                        <stop offset="0.8915" stop-color="#B0B2B3" />
+                        <stop offset="1" stop-color="#9FA1A3" />
+                    </radialGradient>
+                    <rect x="0.5" clip-path="url(#SVGID_2_)" fill="url(#SVGID_3_)" width="728" height="90" />
+                </g>
+            </svg>
+        </div>
+        <div id="r43_logoFrame" class="r43_frame">
+            <div id="r43_OTDALogo" style="width:728px;position:absolute;top:-50px;left:0px;">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="728px" height="90px" viewBox="0 0 728 90" enable-background="new 0 0 728 90" xml:space="preserve">
+                    <g>
+                        <path fill="#000000" d="M123.608,36.796c1.063,0,1.741-0.549,1.741-1.398v-0.025c0-0.894-0.654-1.383-1.752-1.383h-2.164v2.807
+                        H123.608L123.608,36.796z M119.945,32.652h3.772c1.064,0,1.898,0.308,2.44,0.835c0.447,0.453,0.702,1.076,0.702,1.804v0.024
+                        c0,1.374-0.834,2.199-2.006,2.534l2.286,3.165h-1.765l-2.081-2.913h-1.859v2.913h-1.488V32.652L119.945,32.652z" />
+                        <path fill="#000000" d="M132.548,37.417c-0.098-0.934-0.655-1.662-1.621-1.662c-0.896,0-1.524,0.682-1.657,1.662H132.548
+                        L132.548,37.417z M127.82,37.886V37.86c0-1.806,1.294-3.285,3.12-3.285c2.031,0,3.059,1.577,3.059,3.394
+                        c0,0.133-0.012,0.262-0.024,0.407h-4.693c0.161,1.026,0.896,1.6,1.839,1.6c0.713,0,1.221-0.261,1.728-0.75l0.859,0.75
+                        c-0.605,0.716-1.438,1.184-2.612,1.184C129.247,41.158,127.82,39.833,127.82,37.886L127.82,37.886z" />
+                        <path fill="#000000" d="M139.154,38.744v-0.429c-0.374-0.146-0.87-0.252-1.45-0.252c-0.944,0-1.499,0.392-1.499,1.05v0.024
+                        c0,0.611,0.544,0.957,1.246,0.957C138.416,40.095,139.154,39.544,139.154,38.744L139.154,38.744z M134.777,39.199v-0.022
+                        c0-1.364,1.077-2.034,2.637-2.034c0.712,0,1.221,0.108,1.715,0.266V37.25c0-0.895-0.557-1.374-1.583-1.374
+                        c-0.713,0-1.246,0.154-1.827,0.392l-0.386-1.134c0.701-0.31,1.39-0.514,2.406-0.514c0.953,0,1.668,0.254,2.115,0.706
+                        c0.472,0.454,0.69,1.122,0.69,1.949v3.738h-1.428v-0.787c-0.436,0.514-1.099,0.92-2.08,0.92
+                        C135.84,41.147,134.777,40.464,134.777,39.199L134.777,39.199z" />
+                        <polygon fill="#000000" points="142.135,32.29 143.598,32.29 143.598,41.014 142.135,41.014 142.135,32.29     " />
+                        <path fill="#000000" d="M153.77,37.869v-0.021c0-1.22-0.833-2.02-1.827-2.02c-0.99,0-1.86,0.81-1.86,2.02v0.021
+                        c0,1.209,0.87,2.022,1.86,2.022C152.949,39.892,153.77,39.114,153.77,37.869L153.77,37.869z M148.656,34.706h1.462v1.049
+                        c0.472-0.655,1.138-1.181,2.177-1.181c1.5,0,2.963,1.17,2.963,3.274v0.021c0,2.094-1.453,3.277-2.963,3.277
+                        c-1.063,0-1.728-0.527-2.177-1.113v2.895h-1.462V34.706L148.656,34.706z" />
+                        <path fill="#000000" d="M160.909,37.417c-0.097-0.934-0.654-1.662-1.621-1.662c-0.894,0-1.524,0.682-1.656,1.662H160.909
+                        L160.909,37.417z M156.181,37.886V37.86c0-1.806,1.294-3.285,3.118-3.285c2.031,0,3.06,1.577,3.06,3.394
+                        c0,0.133-0.011,0.262-0.023,0.407h-4.692c0.16,1.026,0.896,1.6,1.84,1.6c0.713,0,1.219-0.261,1.726-0.75l0.861,0.75
+                        c-0.606,0.716-1.439,1.184-2.613,1.184C157.608,41.158,156.181,39.833,156.181,37.886L156.181,37.886z" />
+                        <path fill="#000000" d="M168.567,37.899v-0.029c0-1.108-0.811-2.03-1.958-2.03c-1.172,0-1.922,0.908-1.922,2.01v0.021
+                        c0,1.104,0.809,2.022,1.946,2.022C167.818,39.892,168.567,38.985,168.567,37.899L168.567,37.899z M163.223,37.899v-0.029
+                        c0-1.804,1.452-3.295,3.41-3.295c1.957,0,3.397,1.468,3.397,3.274v0.021c0,1.796-1.451,3.289-3.421,3.289
+                        C164.661,41.158,163.223,39.688,163.223,37.899L163.223,37.899z" />
+                        <path fill="#000000" d="M176.384,37.869v-0.021c0-1.22-0.835-2.02-1.828-2.02c-0.989,0-1.859,0.81-1.859,2.02v0.021
+                        c0,1.209,0.87,2.022,1.859,2.022C175.562,39.892,176.384,39.114,176.384,37.869L176.384,37.869z M171.271,34.706h1.461v1.049
+                        c0.471-0.655,1.137-1.181,2.174-1.181c1.5,0,2.962,1.17,2.962,3.274v0.021c0,2.094-1.449,3.277-2.962,3.277
+                        c-1.064,0-1.726-0.527-2.174-1.113v2.895h-1.461V34.706L171.271,34.706z" />
+                        <polygon fill="#000000" points="179.205,32.29 180.668,32.29 180.668,41.014 179.205,41.014 179.205,32.29     " />
+                        <path fill="#000000" d="M186.685,37.417c-0.095-0.934-0.653-1.662-1.618-1.662c-0.896,0-1.524,0.682-1.658,1.662H186.685
+                        L186.685,37.417z M181.957,37.886V37.86c0-1.806,1.294-3.285,3.12-3.285c2.03,0,3.058,1.577,3.058,3.394
+                        c0,0.133-0.011,0.262-0.023,0.407h-4.691c0.157,1.026,0.894,1.6,1.837,1.6c0.714,0,1.221-0.261,1.729-0.75l0.86,0.75
+                        c-0.605,0.716-1.439,1.184-2.612,1.184C183.383,41.158,181.957,39.833,181.957,37.886L181.957,37.886z" />
+                        <polygon fill="#000000" points="189.257,39.365 190.864,39.365 190.864,41.014 189.257,41.014 189.257,39.365  " />
+                        <path fill="#000000" d="M196.017,36.857v-0.023c0-2.345,1.814-4.326,4.367-4.326c1.47,0,2.381,0.403,3.25,1.133l-0.943,1.114
+                        c-0.65-0.552-1.292-0.898-2.367-0.898c-1.562,0-2.748,1.351-2.748,2.953v0.024c0,1.72,1.149,2.987,2.881,2.987
+                        c0.796,0,1.521-0.253,2.044-0.633v-1.568h-2.166v-1.275h3.604v3.512c-0.836,0.704-2.033,1.303-3.531,1.303
+                        C197.761,41.158,196.017,39.294,196.017,36.857L196.017,36.857z" />
+                        <path fill="#000000" d="M205.597,34.706h1.463v1.422c0.398-0.946,1.137-1.592,2.259-1.542v1.528h-0.083
+                        c-1.28,0-2.176,0.824-2.176,2.498v2.401h-1.463V34.706L205.597,34.706z" />
+                        <path fill="#000000" d="M214.612,37.417c-0.095-0.934-0.652-1.662-1.619-1.662c-0.895,0-1.525,0.682-1.656,1.662H214.612
+                        L214.612,37.417z M209.884,37.886V37.86c0-1.806,1.297-3.285,3.122-3.285c2.028,0,3.056,1.577,3.056,3.394
+                        c0,0.133-0.012,0.262-0.023,0.407h-4.689c0.155,1.026,0.892,1.6,1.836,1.6c0.714,0,1.22-0.261,1.729-0.75l0.858,0.75
+                        c-0.606,0.716-1.44,1.184-2.613,1.184C211.311,41.158,209.884,39.833,209.884,37.886L209.884,37.886z" />
+                        <path fill="#000000" d="M221.219,38.744v-0.429c-0.375-0.146-0.87-0.252-1.45-0.252c-0.944,0-1.499,0.392-1.499,1.05v0.024
+                        c0,0.611,0.545,0.957,1.243,0.957C220.481,40.095,221.219,39.544,221.219,38.744L221.219,38.744z M216.842,39.199v-0.022
+                        c0-1.364,1.077-2.034,2.636-2.034c0.713,0,1.223,0.108,1.718,0.266V37.25c0-0.895-0.558-1.374-1.585-1.374
+                        c-0.712,0-1.245,0.154-1.826,0.392l-0.386-1.134c0.703-0.31,1.393-0.514,2.406-0.514c0.953,0,1.669,0.254,2.116,0.706
+                        c0.471,0.454,0.688,1.122,0.688,1.949v3.738h-1.43v-0.787c-0.432,0.514-1.095,0.92-2.079,0.92
+                        C217.907,41.147,216.842,40.464,216.842,39.199L216.842,39.199z" />
+                        <path fill="#000000" d="M224.322,39.271v-3.323h-0.815v-1.241h0.815v-1.735h1.459v1.735h1.721v1.241h-1.721v3.097
+                        c0,0.559,0.293,0.789,0.786,0.789c0.329,0,0.618-0.073,0.908-0.217v1.186c-0.36,0.202-0.76,0.32-1.316,0.32
+                        C225.083,41.122,224.322,40.655,224.322,39.271L224.322,39.271z" />
+                        <path fill="#000000" d="M231.784,37.899v-0.029c0-1.789,1.403-3.295,3.325-3.295c1.196,0,1.944,0.441,2.551,1.084l-0.919,0.971
+                        c-0.446-0.466-0.92-0.79-1.644-0.79c-1.066,0-1.85,0.908-1.85,2.01v0.021c0,1.127,0.784,2.022,1.908,2.022
+                        c0.691,0,1.2-0.309,1.659-0.778l0.883,0.861c-0.627,0.693-1.365,1.184-2.614,1.184C233.187,41.158,231.784,39.688,231.784,37.899
+                        L231.784,37.899z" />
+                        <path fill="#000000" d="M242.794,38.744v-0.429c-0.375-0.146-0.871-0.252-1.452-0.252c-0.943,0-1.501,0.392-1.501,1.05v0.024
+                        c0,0.611,0.548,0.957,1.248,0.957C242.057,40.095,242.794,39.544,242.794,38.744L242.794,38.744z M238.414,39.199v-0.022
+                        c0-1.364,1.077-2.034,2.636-2.034c0.713,0,1.221,0.108,1.719,0.266V37.25c0-0.895-0.556-1.374-1.583-1.374
+                        c-0.715,0-1.247,0.154-1.828,0.392l-0.385-1.134c0.703-0.31,1.389-0.514,2.405-0.514c0.953,0,1.67,0.254,2.115,0.706
+                        c0.474,0.454,0.686,1.122,0.686,1.949v3.738h-1.422v-0.787c-0.437,0.514-1.101,0.92-2.082,0.92
+                        C239.48,41.147,238.414,40.464,238.414,39.199L238.414,39.199z" />
+                        <path fill="#000000" d="M245.723,34.706h1.463v1.422c0.4-0.946,1.135-1.592,2.262-1.542v1.528h-0.085
+                        c-1.28,0-2.177,0.824-2.177,2.498v2.401h-1.463V34.706L245.723,34.706z" />
+                        <path fill="#000000" d="M249.964,40.191l0.65-0.98c0.703,0.512,1.439,0.775,2.094,0.775c0.63,0,0.991-0.264,0.991-0.681v-0.023
+                        c0-0.492-0.679-0.658-1.428-0.888c-0.942-0.261-1.995-0.643-1.995-1.852v-0.02c0-1.197,1.007-1.925,2.272-1.925
+                        c0.8,0,1.67,0.275,2.345,0.716l-0.577,1.029c-0.617-0.372-1.269-0.6-1.805-0.6c-0.565,0-0.891,0.263-0.891,0.624v0.022
+                        c0,0.467,0.689,0.658,1.439,0.897c0.93,0.283,1.982,0.704,1.982,1.839v0.022c0,1.329-1.04,1.987-2.37,1.987
+                        C251.765,41.136,250.758,40.813,249.964,40.191L249.964,40.191z" />
+                        <polygon fill="#000000" points="256.388,39.365 257.996,39.365 257.996,41.014 256.388,41.014 256.388,39.365  " />
+                        <path fill="#000000" d="M91.972,17.82V17.79c0-1.756-1.299-3.22-3.132-3.22c-1.829,0-3.1,1.433-3.1,3.191v0.029
+                        c0,1.755,1.3,3.219,3.131,3.219C90.702,21.009,91.972,19.574,91.972,17.82L91.972,17.82z M83.362,17.82V17.79
+                        c0-2.912,2.318-5.296,5.509-5.296c3.19,0,5.479,2.354,5.479,5.267v0.029c0,2.91-2.319,5.295-5.51,5.295
+                        C85.651,23.085,83.362,20.73,83.362,17.82L83.362,17.82z" />
+                        <polygon fill="#000000" points="96.152,12.669 98.251,12.669 103.094,18.975 103.094,12.669 105.338,12.669 105.338,22.909
+                        103.405,22.909 98.397,16.4 98.397,22.909 96.152,22.909 96.152,12.669    " />
+                        <polygon fill="#000000" points="109.843,14.745 106.7,14.745 106.7,12.669 115.265,12.669 115.265,14.745 112.118,14.745
+                        112.118,22.909 109.843,22.909 109.843,14.745    " />
+                        <path fill="#000000" d="M121.41,18.623l-1.373-3.321l-1.373,3.321H121.41L121.41,18.623z M119.017,12.595h2.098l4.43,10.314h-2.377
+                        l-0.945-2.297h-4.372l-0.944,2.297h-2.319L119.017,12.595L119.017,12.595z" />
+                        <path fill="#000000" d="M131.409,17.644c1.108,0,1.743-0.587,1.743-1.449v-0.028c0-0.968-0.679-1.464-1.787-1.464h-2.26v2.941
+                        H131.409L131.409,17.644z M126.831,12.669h4.726c1.315,0,2.333,0.365,3.013,1.039c0.576,0.569,0.887,1.375,0.887,2.34v0.029
+                        c0,1.653-0.901,2.692-2.215,3.175l2.525,3.657h-2.658l-2.215-3.277h-1.788v3.277h-2.274V12.669L126.831,12.669z" />
+                        <polygon fill="#000000" points="137.392,12.669 139.666,12.669 139.666,22.909 137.392,22.909 137.392,12.669  " />
+                        <path fill="#000000" d="M150.122,17.82V17.79c0-1.756-1.299-3.22-3.13-3.22c-1.831,0-3.101,1.433-3.101,3.191v0.029
+                        c0,1.755,1.299,3.219,3.131,3.219C148.852,21.009,150.122,19.574,150.122,17.82L150.122,17.82z M141.513,17.82V17.79
+                        c0-2.912,2.317-5.296,5.509-5.296c3.189,0,5.478,2.354,5.478,5.267v0.029c0,2.91-2.319,5.295-5.509,5.295
+                        C143.801,23.085,141.513,20.73,141.513,17.82L141.513,17.82z" />
+                        <path fill="#000000" d="M227.879,14.972v6.175h1.757c1.86,0,3.114-1.245,3.114-3.06v-0.028c0-1.814-1.254-3.087-3.114-3.087
+                        H227.879L227.879,14.972z M225.603,12.939h4.033c3.248,0,5.495,2.209,5.495,5.091v0.029c0,2.882-2.247,5.12-5.495,5.12h-4.033
+                        V12.939L225.603,12.939z" />
+                        <polygon fill="#000000" points="236.933,12.939 244.73,12.939 244.73,14.944 239.193,14.944 239.193,17.02 244.065,17.02
+                        244.065,19.025 239.193,19.025 239.193,21.175 244.803,21.175 244.803,23.179 236.933,23.179 236.933,12.939    " />
+                        <path fill="#000000" d="M252.677,18.892l-1.375-3.32l-1.372,3.32H252.677L252.677,18.892z M250.285,12.865h2.096l4.433,10.313
+                        h-2.379l-0.944-2.298h-4.374l-0.945,2.298h-2.319L250.285,12.865L250.285,12.865z" />
+                        <polygon fill="#000000" points="258.097,12.939 260.373,12.939 260.373,21.132 265.526,21.132 265.526,23.179 258.097,23.179
+                        258.097,12.939  " />
+                        <polygon fill="#000000" points="266.871,12.939 274.67,12.939 274.67,14.944 269.131,14.944 269.131,17.02 274.004,17.02
+                        274.004,19.025 269.131,19.025 269.131,21.175 274.744,21.175 274.744,23.179 266.871,23.179 266.871,12.939    " />
+                        <path fill="#000000" d="M281.273,17.912c1.107,0,1.742-0.587,1.742-1.448v-0.027c0-0.968-0.679-1.465-1.787-1.465h-2.26v2.94
+                        H281.273L281.273,17.912z M276.695,12.939h4.725c1.314,0,2.334,0.365,3.013,1.038c0.575,0.569,0.885,1.375,0.885,2.342v0.028
+                        c0,1.652-0.898,2.691-2.214,3.174l2.524,3.658h-2.658l-2.214-3.277h-1.788v3.277h-2.273V12.939L276.695,12.939z" />
+                        <path fill="#000000" d="M286.398,21.687l1.345-1.594c0.93,0.76,1.903,1.242,3.085,1.242c0.931,0,1.491-0.365,1.491-0.965v-0.029
+                        c0-0.569-0.354-0.863-2.083-1.303c-2.082-0.525-3.425-1.096-3.425-3.13v-0.031c0-1.855,1.507-3.086,3.616-3.086
+                        c1.508,0,2.793,0.47,3.843,1.303l-1.183,1.698c-0.914-0.631-1.816-1.012-2.687-1.012c-0.873,0-1.328,0.395-1.328,0.893v0.031
+                        c0,0.672,0.441,0.893,2.228,1.344c2.096,0.543,3.28,1.288,3.28,3.074v0.027c0,2.034-1.566,3.176-3.796,3.176
+                        C289.216,23.325,287.636,22.782,286.398,21.687L286.398,21.687z" />
+                        <path fill="#000000" d="M212.738,18.624l1.437-3.769l1.438,3.769H212.738L212.738,18.624z M215.67,12.714h-2.988l-4.174,10.224
+                        h2.589l0.95-2.495h4.256l0.951,2.495h2.587L215.67,12.714L215.67,12.714z M194.603,21.161c-1.683,0-3.05-1.52-3.05-3.397
+                        c0-1.876,1.367-3.398,3.05-3.398c1.683,0,3.051,1.522,3.051,3.398C197.654,19.641,196.286,21.161,194.603,21.161L194.603,21.161z
+                         M194.603,12.363c-2.982,0-5.402,2.418-5.402,5.401c0,2.983,2.42,5.4,5.402,5.4c2.985,0,5.403-2.417,5.403-5.4
+                        C200.006,14.781,197.588,12.363,194.603,12.363L194.603,12.363z M173.29,21.161c-1.682,0-3.048-1.52-3.048-3.397
+                        c0-1.876,1.366-3.398,3.048-3.398c1.684,0,3.049,1.522,3.049,3.398C176.339,19.641,174.974,21.161,173.29,21.161L173.29,21.161z
+                         M173.29,12.363c-2.983,0-5.399,2.418-5.399,5.401c0,2.983,2.417,5.4,5.399,5.4s5.402-2.417,5.402-5.4
+                        C178.692,14.781,176.273,12.363,173.29,12.363L173.29,12.363z M186.641,12.714l-2.646,4.137l-2.649-4.137h-2.59l4.098,6.412v3.811
+                        h2.279v-3.811l4.097-6.412H186.641L186.641,12.714z M209.053,12.714h-8.742v1.959h3.238v8.265h2.281v-8.265h3.223V12.714
+                        L209.053,12.714z M158.671,14.673h3.24v8.265h2.279v-8.265h3.225v-1.959h-8.744V14.673L158.671,14.673z" />
+                    </g>
+                </svg>
+            </div>
+            <img id="r43_toyota-swoop" class="OTDA" src="swoop.png" alt="Toyota" style="bottom:-80px;position:absolute;left:0; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;">
+        </div>
+        <div id="r43_overlay">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="860px" height="92px" viewBox="0 0 860 92" enable-background="new 0 0 860 92" xml:space="preserve">
+                <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-1.356511e-08" y1="46" x2="860" y2="46">
+                    <stop offset="0" style="stop-color:#9A1B33" />
+                    <stop offset="0.197" style="stop-color:#961A31" />
+                    <stop offset="0.6916" style="stop-color:#640911" />
+                    <stop offset="0.9986" style="stop-color:#490000" />
+                    <stop offset="1" style="stop-color:#490000" />
+                </linearGradient>
+                <polygon fill="url(#SVGID_5_)" points="860,92 0,92 0,0 730,0 " />
+            </svg>
+        </div>
+        <div id="r43_textConatiner" class="r43_frame">
+            <img id="r43_textFrame1" src="text1.png" width="728" alt="">
+            <img id="r43_textFrame2" src="text2.png" width="728" alt="">
+            <img id="r43_textFrame3" src="text3.png" width="728" alt="">
+            <img id="r43_textFrame4" src="text4.png" width="728" alt="">
+        </div>
+        <img id="r43_cutline" class="r43_frame" src="cutline.png" width="728" alt="">
+        <div id="r43_carFrame" class="r43_frame">
+            <img id="r43_carFrame1" src="car1.png" width="728" alt="">
+            <img id="r43_carFrame2" src="car2.png" width="728" alt="">
+            <img id="r43_carFrame3" src="car3.png" width="728" alt="">
+            <img id="r43_carFrame4" src="car4.png" width="728" alt="">
+            <div id="r43_tire1"><img src="tire.png" width="100%" alt=""></div>
+            <div id="r43_tire2"><img src="tire.png" width="100%" alt=""></div>
+            <div id="r43_tire3"><img src="tire.png" width="100%" alt=""></div>
+            <div id="r43_tire4"><img src="tire.png" width="100%" alt=""></div>
+            <div id="r43_tire5"><img src="tire.png" width="100%" alt=""></div>
+            <div id="r43_tire6"><img src="tire.png" width="100%" alt=""></div>
+            <div id="r43_tire7"><img src="tire.png" width="100%" alt=""></div>
+            <div id="r43_tire8"><img src="tire.png" width="100%" alt=""></div>
+            <div class="flash">
+                <img id="r43_flash" src="flash.png" width="158" height="132" alt="">
+                <img id="r43_flash2" src="flash.png" width="158" height="132" alt="">
+            </div>
+        </div>
+        <div id="r43_nav">
+            <ul id="r43_navButtons">
+                <li id="r43_cta_1" class="r43_ctaContainer">
+                    <a class="r43_CTA">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84.41 7.78" style="width:84px;">
+                            <title>Find a Dealer</title>
+                            <path d="M0.91,6.79H3.13V7.63H0V0.31H0.91V6.79Z" style="fill:#fff" />
+                            <path d="M11.37,4A3.78,3.78,0,0,1,7.54,7.78,3.78,3.78,0,0,1,3.71,4,3.83,3.83,0,0,1,11.37,4ZM10.46,4A2.92,2.92,0,1,0,4.62,4,2.92,2.92,0,1,0,10.46,4Z" style="fill:#fff" />
+                            <path d="M18.26,1.71A2.91,2.91,0,0,0,13.44,4a2.88,2.88,0,0,0,4.82,2.21V7.27a4,4,0,0,1-1.92.51A3.79,3.79,0,0,1,12.53,4,3.85,3.85,0,0,1,16.42.16a3.53,3.53,0,0,1,1.84.5V1.71Z" style="fill:#fff" />
+                            <path d="M20.87,5.79L20,7.63h-1L22.55,0,26,7.63h-1L24.23,5.79H20.87ZM22.55,2l-1.3,3h2.6Z" style="fill:#fff" />
+                            <path d="M28.33,7.63H27.42V1.15H25.69V0.31h4.39V1.15H28.33V7.63Z" style="fill:#fff" />
+                            <path d="M31.28,0.31h3.93V1.15h-3v2h2.93V4H32.19V6.79h3V7.63H31.28V0.31Z" style="fill:#fff" />
+                            <path d="M41.14,5.79L40.31,7.63h-1L42.82,0l3.49,7.63h-1L44.5,5.79H41.14ZM42.82,2l-1.3,3h2.6Z" style="fill:#fff" />
+                            <path d="M50.43,0.31h1.51C54.19,0.31,56,1.49,56,3.93s-1.82,3.7-4.13,3.7H50.43V0.31Zm0.91,6.48h0.32c1.86,0,3.47-.7,3.47-2.82s-1.61-2.82-3.47-2.82H51.34V6.79Z" style="fill:#fff" />
+                            <path d="M57.25,0.31h3.93V1.15h-3v2H61.1V4H58.17V6.79h3V7.63H57.25V0.31Z" style="fill:#fff" />
+                            <path d="M64,5.79L63.19,7.63h-1L65.71,0,69.2,7.63h-1L67.38,5.79H64ZM65.71,2L64.4,5H67Z" style="fill:#fff" />
+                            <path d="M71.21,6.79h2.22V7.63H70.29V0.31h0.91V6.79Z" style="fill:#fff" />
+                            <path d="M74.52,0.31h3.93V1.15h-3v2h2.93V4H75.43V6.79h3V7.63H74.52V0.31Z" style="fill:#fff" />
+                            <path d="M84.41,7.63H83.31l-2.15-3.1H80.78v3.1H79.86V0.31H81A3.87,3.87,0,0,1,82.9.65a2,2,0,0,1,1,1.75,2,2,0,0,1-1.76,2ZM80.78,3.78h0.29C82,3.78,83,3.6,83,2.44s-1.09-1.31-2-1.31H80.78V3.78Z" style="fill:#fff" />
+                        </svg>
+                    </a>
+                    <a class="r43_clickTag" href="javascript:window.open(window.clickTagLink0)" target="_blank"></a>
+                </li>
+                <li id="r43_cta_2" class="r43_ctaContainer">
+                    <a class="r43_CTA">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.39 8.02" style="width:94px;">
+                            <title>Book a Test Drive</title>
+                            <path d="M0,0.31H0.89c1.38,0,2.68.36,2.68,2a1.57,1.57,0,0,1-.79,1.39v0A1.88,1.88,0,0,1,4.25,5.58c0,1.47-1.25,2-2.54,2H0V0.31ZM0.91,3.55H1.15c0.86,0,1.57-.17,1.57-1.22S2,1.13,1.16,1.13H0.91V3.55Zm0,3.26h0.7c0.84,0,1.73-.25,1.73-1.29s-1-1.24-1.86-1.24H0.91V6.81Z" style="fill:#fff" />
+                            <path d="M12.91,4A3.78,3.78,0,0,1,9.07,7.78,3.78,3.78,0,0,1,5.24,4,3.83,3.83,0,0,1,12.91,4ZM12,4A2.92,2.92,0,1,0,6.15,4,2.92,2.92,0,1,0,12,4Z" style="fill:#fff" />
+                            <path d="M21.43,4a3.83,3.83,0,0,1-7.67,0A3.83,3.83,0,0,1,21.43,4ZM20.51,4a2.92,2.92,0,1,0-5.84,0A2.92,2.92,0,1,0,20.51,4Z" style="fill:#fff" />
+                            <path d="M26.81,0.31H28L24.72,3.6l3.35,4H26.83L24.08,4.22l-0.37.35V7.63H22.79V0.31h0.91V3.48Z" style="fill:#fff" />
+                            <path d="M33.43,5.79L32.6,7.63h-1L35.11,0,38.6,7.63h-1L36.79,5.79H33.43ZM35.11,2l-1.3,3h2.6Z" style="fill:#fff" />
+                            <path d="M45,7.63H44V1.15H42.31V0.31H46.7V1.15H45V7.63Z" style="fill:#fff" />
+                            <path d="M47.9,0.31h3.93V1.15h-3v2h2.93V4H48.81V6.79h3V7.63H47.9V0.31Z" style="fill:#fff" />
+                            <path d="M56.69,1.7A1.25,1.25,0,0,0,55.52,1a1.15,1.15,0,0,0-1.22,1,1.29,1.29,0,0,0,1,1l0.52,0.2a2.3,2.3,0,0,1,1.81,2.2,2.26,2.26,0,0,1-2.34,2.28,2.28,2.28,0,0,1-2.26-2L54,5.54a1.38,1.38,0,1,0,2.77,0,1.58,1.58,0,0,0-1.26-1.39L55,3.9A2.07,2.07,0,0,1,53.38,2,2,2,0,0,1,55.54.16a2.09,2.09,0,0,1,1.88,1.11Z" style="fill:#fff" />
+                            <path d="M61.11,7.63H60.19V1.15H58.46V0.31h4.39V1.15H61.11V7.63Z" style="fill:#fff" />
+                            <path d="M67.26,0.31h1.51c2.24,0,4.11,1.18,4.11,3.62s-1.82,3.7-4.13,3.7H67.26V0.31Zm0.91,6.48h0.32C70.35,6.79,72,6.09,72,4s-1.61-2.82-3.47-2.82H68.17V6.79Z" style="fill:#fff" />
+                            <path d="M78.83,7.63H77.72l-2.15-3.1H75.19v3.1H74.27V0.31h1.11a3.87,3.87,0,0,1,1.93.34,2,2,0,0,1,1,1.75,2,2,0,0,1-1.76,2ZM75.19,3.78h0.29c0.93,0,1.94-.17,1.94-1.34s-1.09-1.31-2-1.31H75.19V3.78Z" style="fill:#fff" />
+                            <path d="M80.91,7.63H80V0.31h0.91V7.63Z" style="fill:#fff" />
+                            <path d="M85.18,5.73l2.17-5.42h1L85.18,8,82,0.31h1Z" style="fill:#fff" />
+                            <path d="M89.46,0.31h3.93V1.15h-3v2H93.3V4H90.37V6.79h3V7.63H89.46V0.31Z" style="fill:#fff" />
+                        </svg>
+                    </a>
+                    <a class="r43_clickTag" href="javascript:window.open(window.clickTagLink1)" target="_blank"></a>
+                </li>
+                <li id="r43_cta_3" class="r43_ctaContainer">
+                    <a class="r43_CTA">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.17 7.97" style="width:80px;">
+                            <title>Build & Price</title>
+                            <path d="M0,0.35H0.89c1.38,0,2.68.36,2.68,2a1.57,1.57,0,0,1-.79,1.39v0A1.88,1.88,0,0,1,4.25,5.62c0,1.47-1.25,2-2.54,2H0V0.35ZM0.91,3.59H1.15c0.86,0,1.57-.17,1.57-1.22S2,1.16,1.16,1.16H0.91V3.59Zm0,3.26h0.7c0.84,0,1.73-.25,1.73-1.29s-1-1.24-1.86-1.24H0.91V6.85Z" style="fill:#fff" />
+                            <path d="M6.54,0.35V4.67C6.54,5.86,6.9,7,8.31,7s1.77-1.11,1.77-2.3V0.35H11V5A2.62,2.62,0,0,1,8.31,7.82,2.62,2.62,0,0,1,5.63,5V0.35H6.54Z" style="fill:#fff" />
+                            <path d="M13.62,7.67H12.7V0.35h0.91V7.67Z" style="fill:#fff" />
+                            <path d="M16.38,6.83H18.6V7.67H15.47V0.35h0.91V6.83Z" style="fill:#fff" />
+                            <path d="M19.61,0.35h1.51c2.24,0,4.11,1.18,4.11,3.62s-1.82,3.7-4.13,3.7H19.61V0.35Zm0.91,6.48h0.32c1.86,0,3.47-.7,3.47-2.82s-1.61-2.82-3.47-2.82H20.52V6.83Z" style="fill:#fff" />
+                            <path d="M31,5.83L30.12,7.67h-1L32.63,0l3.49,7.63h-1L34.31,5.83H31ZM32.63,2l-1.3,3h2.6Z" style="fill:#fff" />
+                            <path d="M37.14,0l5.49,5.75V0.35h0.91V8L38,2.21V7.67H37.14V0Z" style="fill:#fff" />
+                            <path d="M45.25,0.35h1.51C49,0.35,50.87,1.53,50.87,4S49,7.67,46.73,7.67H45.25V0.35Zm0.91,6.48h0.32C48.35,6.83,50,6.13,50,4s-1.61-2.82-3.47-2.82H46.16V6.83Z" style="fill:#fff" />
+                            <path d="M56.47,7.67H55.55V0.35h1c2.25,0,3,.78,3,2.12C59.55,4,58.38,4.6,57,4.6H56.47V7.67Zm0-3.88h0.29c0.93,0,1.94-.17,1.94-1.34s-1.09-1.28-2-1.28H56.47V3.78Z" style="fill:#fff" />
+                            <path d="M65.4,7.67H64.29l-2.15-3.1H61.76v3.1H60.84V0.35H62a3.87,3.87,0,0,1,1.93.34,2,2,0,0,1,1,1.75,2,2,0,0,1-1.76,2ZM61.76,3.81H62C63,3.81,64,3.64,64,2.47S62.9,1.16,62,1.16H61.76V3.81Z" style="fill:#fff" />
+                            <path d="M67.48,7.67H66.57V0.35h0.91V7.67Z" style="fill:#fff" />
+                            <path d="M74.66,1.75A2.91,2.91,0,0,0,69.84,4a2.88,2.88,0,0,0,4.82,2.21V7.31a4,4,0,0,1-1.92.51A3.79,3.79,0,0,1,68.93,4,3.85,3.85,0,0,1,72.82.19a3.53,3.53,0,0,1,1.84.5V1.75Z" style="fill:#fff" />
+                            <path d="M76.23,0.35h3.93V1.18h-3v2h2.93V4.07H77.15V6.83h3V7.67H76.23V0.35Z" style="fill:#fff" />
+                        </svg>
+                    </a>
+                    <a class="r43_clickTag" href="javascript:window.open(window.clickTagLink2)" target="_blank"></a>
+                </li>
+            </ul>
+            <ul id="r43_navDirections">
+                <li style="float:left;">
+                    <a class="prev"></a>
+                </li>
+                <li style="float:right;">
+                    <a class="next"></a>
+                </li>
+            </ul>
+        </div>
+        <a href="#" id="r43_replayButton" style="display:none;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.785 13.739" style="position:relative;float:left;">
+                <path d="M10.91,1.277c-2.902-2.073-6.883-1.56-9.178,1.08L0.279,1.319L0,6.603l4.846-2.022L3.357,3.519c1.648-1.753,4.389-2.064,6.4-0.627c2.191,1.567,2.703,4.627,1.135,6.82c-1.566,2.194-4.625,2.704-6.82,1.137c-0.939-0.673-1.615-1.66-1.896-2.779L0.254,8.553c0.396,1.575,1.344,2.963,2.668,3.907c3.082,2.204,7.383,1.488,9.584-1.596C14.711,7.78,13.994,3.48,10.91,1.277z" />
+            </svg>
+        </a>
+    </div>
+</body>
+<script type="text/javascript" src="TweenLite.min.js"></script>
+<script type="text/javascript" src="TimelineLite.min.js"></script>
+<script type="text/javascript" src="CSSPlugin.min.js"></script>
+<script>
+var replay = document.getElementById("r43_replayButton"),
+    clickTagHover = document.getElementById('r43_bannerContainer'),
+    finalFrame = false,
+    ctaPos = 0,
+    intg = 0,
+    timeLine = new TimelineLite;
+var interval;
+var slidesArray = [];
+var position = 0;
+
+slider = function(id, pos) {
+    var slider = document.getElementById(id),
+        slides = slider.firstElementChild.children,
+        controls = slider.children[1],
+        next = controls.children[1],
+        prev = controls.children[0],
+        width = 132,
+
+        sliderStart = false;
+    position = pos;
+    initSlider = function() {
+        slides[position].children[1].style.display = "block";
+        slidesArray = [];
+
+        for (var i = 0, im = slides.length; im > i; i++) {
+            slidesArray.push(slides[i]);
+        }
+
+        if (position === 1) {
+            first = slidesArray[2];
+            slidesArray.splice(2, 1);
+
+            slidesArray.sort(function() {
+                return (Math.round(Math.random()) - 0.5);
+            });
+
+            for (var i = 0; i < slidesArray.length; i++) {
+                slider.firstElementChild.removeChild(slidesArray[i]);
+            };
+
+            slider.firstElementChild.appendChild(first);
+
+        } else if (position === 2) {
+            first = slidesArray[0];
+            slidesArray.splice(0, 1);
+
+            slidesArray.sort(function() {
+                return (Math.round(Math.random()) - 0.5);
+            });
+
+            for (var i = 0; i < slidesArray.length; i++) {
+                slider.firstElementChild.removeChild(slidesArray[i]);
+            };
+
+            slider.firstElementChild.appendChild(first);
+
+        } else if (position === 3) {
+            first = slidesArray[1];
+            slidesArray.splice(1, 1);
+
+            slidesArray.sort(function() {
+                return (Math.round(Math.random()) - 0.5);
+            });
+
+            for (var i = 0; i < slidesArray.length; i++) {
+                slider.firstElementChild.removeChild(slidesArray[i]);
+            };
+
+            slider.firstElementChild.appendChild(first);
+
+        } else {
+            slidesArray.sort(function() {
+                return (Math.round(Math.random()) - 0.5);
+            });
+
+            for (var i = 0; i < slidesArray.length; i++) {
+                slider.firstElementChild.removeChild(slidesArray[i]);
+            };
+        }
+
+        for (var i = 0; i < slidesArray.length; i++) {
+            slider.firstElementChild.appendChild(slidesArray[i]);
+        };
+
+    }
+
+    moveSlide = function(e) {
+        var a, x = 0;
+        if (e !== 'next') {
+            a = e.target.className;
+            clearInterval(interval);
+
+        } else {
+            a = e;
+        }
+        if (a === 'prev' || a === 'next') {
+            x = (a === 'prev') ? (+width) : (-width);
+        }
+        TweenLite.to(slides[position], 0.25, {
+            left: x,
+            ease: Power4.easeInOut
+        });
+        TweenLite.set(slides[position].children[1], {
+            display: 'none'
+        })
+        if (a === 'prev') {
+            position = position - 1;
+            if (position < 0) position = 2;
+        } else if (a === 'next') {
+            position = position + 1;
+            if (position > 2) position = 0;
+        };
+        TweenLite.set(slides[position], {
+            left: -(x)
+        })
+        TweenLite.to(slides[position], 0.25, {
+            left: 0,
+            ease: Power4.easeInOut
+        });
+        TweenLite.set(slides[position].children[1], {
+            display: 'block'
+        })
+    }
+
+    initSlider();
+
+    next.addEventListener("click", moveSlide, false);
+    prev.addEventListener("click", moveSlide, false);
+    next.addEventListener("mouseenter", mouseEnterNext, false);
+    prev.addEventListener("mouseenter", mouseEnterPrev, false);
+    next.addEventListener("mouseleave", mouseLeaveNext, false);
+    prev.addEventListener("mouseleave", mouseLeavePrev, false);
+    //        clickTagHover.addEventListener("mouseenter", mouseOver, false);
+
+    for (var i = 0; i < slides.length; i++) {
+        slides[i].style.left = (width * i + "px");
+    }
+}
+
+//TweenLite.set(["#r43_carFrame2","#r43_carFrame3","#r43_carFrame4"],{x:300,scale: .85,display:'block'});
+TweenLite.set('#r43_flash', {
+    scale: .3,
+    x: 179,
+    y: -19,
+    opacity: 0
+})
+TweenLite.set('#r43_flash2', {
+    scale: .15,
+    x: 138,
+    y: -23,
+    opacity: 0
+})
+TweenLite.set('img', {
+    force3D: true
+});
+
+window.onload = function() {
+    slider('r43_nav', ctaPos);
+    timeLine
+        .set('#r43_bannerContainer', {
+            display: 'block'
+        }) //ez delay :-)
+        .set('img', {
+            rotation: 0.001,
+            z: 0.01,
+            force3D: true
+        })
+        .from("#r43_textFrame1", 1, {
+            opacity: 0
+        }, 'start+=.5')
+        .from(["#r43_carFrame1", "#r43_tire1", "#r43_tire2"], 1, {
+            x: 300,
+            y: '-=95'
+        }, 'start')
+        .from(["#r43_tire1 img", "#r43_tire2 img"], 1, {
+            rotation: 450
+        }, 'start')
+        .from("#r43_cutline", 1, {
+            opacity: 0
+        }, 'start+=.5')
+
+    //.add(function(){timeLine.pause();},'exitCar1')
+    .set({}, {}, '+=2.3')
+        .to(["#r43_textFrame1"], 1, {
+            opacity: 0
+        }, "exitCar1")
+        .to(["#r43_carFrame1", "#r43_tire1", "#r43_tire2"], 1, {
+            x: -300,
+            y: '+=95'
+        }, 'exitCar1')
+        .to(["#r43_tire1 img", "#r43_tire2 img"], 1, {
+            rotation: -400
+        }, 'exitCar1')
+
+    .to(["#r43_textFrame2"], 1, {
+            opacity: 1
+        }, "showCar2")
+        .from(["#r43_carFrame2", "#r43_tire3", "#r43_tire4"], 1, {
+            x: 300,
+            y: '-=95'
+        }, 'showCar2-=0.5')
+        .from(["#r43_tire3 img", "#r43_tire4 img"], 1, {
+            rotation: 450
+        }, 'showCar2-=0.5')
+
+    .set({}, {}, '+=1.3')
+        .to(["#r43_textFrame2"], 1, {
+            opacity: 0
+        }, "exitCar2")
+        .to(["#r43_carFrame2", "#r43_tire3", "#r43_tire4"], 1, {
+            x: -300,
+            y: '+=95'
+        }, 'exitCar2')
+        .to(["#r43_tire3 img", "#r43_tire4 img"], 1, {
+            rotation: -400
+        }, 'exitCar2')
+
+    .to(["#r43_textFrame3"], 1, {
+            opacity: 1
+        }, "showCar3")
+        .from(["#r43_carFrame3", "#r43_tire5", "#r43_tire6"], 1, {
+            x: 450,
+            y: '-=95'
+        }, 'showCar3-=0.5')
+        .from(["#r43_tire5 img", "#r43_tire6 img"], 1, {
+            rotation: 450
+        }, 'showCar3-=0.5')
+
+
+    .set({}, {}, '+=1.3')
+        .to(["#r43_textFrame3"], 1, {
+            opacity: 0
+        }, "exitCar3")
+        .to(["#r43_carFrame3", "#r43_tire5", "#r43_tire6"], 1, {
+            x: -300,
+            y: '+=95'
+        }, 'exitCar3')
+        .to(["#r43_tire5 img", "#r43_tire6 img"], 1, {
+            rotation: -400
+        }, 'exitCar3')
+
+    .to(["#r43_textFrame4"], 1, {
+            opacity: 1
+        }, "showCar4")
+        .from(["#r43_carFrame4", "#r43_tire7", "#r43_tire8"], 1, {
+            x: 300,
+            y: '-=95'
+        }, 'showCar4-=0.5')
+        .from(["#r43_tire7 img", "#r43_tire8 img"], 1, {
+            rotation: 450
+        }, 'showCar4-=0.5')
+
+    .set({}, {}, '+=2')
+        .to("#r43_overlay", 0.5, {
+            left: -868
+        }, "out+=.3")
+        .to(["#r43_textConatiner", "#r43_cutline"], 0.5, {
+            left: -720
+        }, "out")
+        .to("#r43_carFrame", 1, {
+            force3D: true,
+            scale: .89,
+            x: 36
+        }, "in")
+        .to("#r43_toyota-swoop", 1, {
+            bottom: 0
+        }, "in")
+        .to("#r43_OTDALogo", 1, {
+            y: 49,
+            force3D: true,
+            rotation: .001
+        }, "in")
+        .to("#r43_nav", 1, {
+            top: 0,
+            opacity: 1,
+            ease: Power1.easeInOut
+        }, "in+=.1")
+        .to(["#r43_legalOpen", "#r43_replayButton"], 0, {
+            display: "block",
+            onComplete: function() {
+                clickTagHover.addEventListener("mouseenter", mouseOver);
+                interval = setInterval(function() {
+                    intg += 1;
+                    if (intg === 2) {
+                        clearInterval(interval);
+                    }
+                    moveSlide('next');
+                }, 1000);
+                finalFrame = true;
+                timeLine2 = new TimelineLite;
+            }
+        });
+}
+replay.onclick = function() {
+    clickTagHover.removeEventListener("mouseenter", mouseOver);
+    timeLine.restart(true, false);
+    finalFrame = false;
+    timeLine2.kill()
+    TweenLite.set(['#r43_flash', '#r43_flash2'], {
+        opacity: 0
+    })
+    TweenLite.set(["#r43_mainLogo1", "#r43_mainLogo2", "#r43_mainLogo3"], {
+        width: 300,
+        left: 0,
+        top: 0
+    });
+    TweenLite.set(".r43_radialGradient", {
+        left: 0,
+        top: 0,
+        paddingLeft: 0
+    });
+    TweenLite.set("#r43_carTitle", {
+        width: "100%",
+        left: 0,
+        top: 0
+    });
+    TweenLite.set("#r43_rightLight", {
+        left: -65
+    })
+    TweenLite.set("#r43_leftLight", {
+        left: 10
+    })
+    TweenLite.set(["#r43_carTop", "#r43_carBottom"], {
+        width: "50%",
+        left: 300,
+        top: 65
+    })
+    TweenLite.set("#r43_nameContainer", {
+        width: "100%",
+        left: 0,
+        top: 0
+    })
+    TweenLite.set("#r43_cartire1", {
+        left: 373,
+        top: 135,
+        width: 20
+    })
+    TweenLite.set("#r43_cartire2", {
+        left: 423,
+        top: 133,
+        width: 13
+    })
+    TweenLite.set(slidesArray[0], {
+        left: 0
+    })
+    TweenLite.set(slidesArray[1], {
+        left: 132
+    })
+    TweenLite.set(slidesArray[2], {
+        left: 264
+    })
+    position = 0;
+    intg = 0;
+    ctaPos = 0;
+    clearInterval(interval);
+}
+
+function mouseOver() {
+    TweenLite.to(['#r43_flash', '#r43_flash2'], .075, {
+        opacity: 1
+    })
+    TweenLite.to(['#r43_flash', '#r43_flash2'], .075, {
+        opacity: 0,
+        delay: .075
+    })
+    TweenLite.to(['#r43_flash', '#r43_flash2'], .075, {
+        opacity: 1,
+        delay: .15
+    })
+    TweenLite.to(['#r43_flash', '#r43_flash2'], 1, {
+        opacity: 0,
+        delay: .5
+    })
+}
+
+function mouseEnterNext() {
+    TweenLite.to('.next', .075, {
+        borderLeft: '15px solid #9a1a31'
+    })
+}
+
+function mouseLeaveNext() {
+    TweenLite.to('.next', .075, {
+        borderLeft: '15px solid #58595b'
+    })
+}
+
+function mouseEnterPrev() {
+    TweenLite.to('.prev', .075, {
+        borderRight: '15px solid #9a1a31'
+    })
+}
+
+function mouseLeavePrev() {
+    TweenLite.to('.prev', .075, {
+        borderRight: '15px solid #58595b'
+    })
+}
+</script>
+
+</html>
